@@ -1,0 +1,97 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v23-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-800 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v23-latin_cyrillic-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('../fonts/montserrat-v23-latin_cyrillic-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/montserrat-v23-latin_cyrillic-800.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/montserrat-v23-latin_cyrillic-800.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/montserrat-v23-latin_cyrillic-800.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/montserrat-v23-latin_cyrillic-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+body {
+  background-image: url('../images/bg_pattern_blue1.png');
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 2rem;
+}
+
+header, article, footer {
+  padding: 3rem;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 14rem;
+  }
+}
+
+.about {
+  background: rgba(30, 74, 146, 0.7);
+}
+
+.donate {
+  text-align: center;
+}
+
+footer {
+  background: rgba(30, 74, 146, 0.7);
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  .col {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .ppi-logo {
+    width: 5rem;
+    height: auto;
+  }
+}
